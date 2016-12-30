@@ -7,7 +7,9 @@
   ```
   @function rem($pixels， $design_draft_width：?) {
      @return $pixels / $design_draft_width + rem;
-  }```
+  }
+  ```
   将`?`改为设计稿的宽度
 
-  [更多信息点击这里](http://www.jianshu.com/p/5be0d1d7ede7)。
+
+  **[更多信息点击这里](http://www.jianshu.com/p/5be0d1d7ede7)。**
