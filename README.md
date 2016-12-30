@@ -6,6 +6,6 @@
   可以使用sass函数减少px转化为rem的工作量：
   ```
   @function rem($pixels， $design_draft_width：?) {
-     @return $pixels / $design_draft_width;
+     @return $pixels / $design_draft_width + rem;
   }```
   将`?`改为设计稿的宽度
