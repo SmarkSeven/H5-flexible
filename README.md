@@ -5,7 +5,7 @@
 3. 编写CSS时元素的width/height、margin、padding等使用rem作为单位，属性的数值 = 设计稿上标注的数值 / 设计稿的宽度
   可以使用sass函数减少px转化为rem的工作量：
   ```
-  @function rem($pixels， $design_draft_width：?) {
+  @function rem($pixels, $design_draft_width: ?) {
      @return $pixels / $design_draft_width + rem;
   }
   ```
